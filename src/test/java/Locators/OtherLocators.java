@@ -24,8 +24,8 @@ public class OtherLocators {
             // 2+ matches? -> default to 1st
 
             // IFRAMES -> check documentation
-            var button = page.frameLocator("#bar")
-                    .getByRole(AriaRole.BUTTON).click();
+            var button = page.frameLocator("#bar").getByRole(AriaRole.BUTTON);
+            button.click();
 
 
         }
