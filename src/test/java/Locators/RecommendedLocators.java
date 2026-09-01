@@ -4,9 +4,11 @@ import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
+import com.microsoft.playwright.assertions.PlaywrightAssertions;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 import static com.microsoft.playwright.options.AriaRole.*;
 import static org.example.Constans.HOME_WEB;
 
@@ -28,8 +30,8 @@ public class RecommendedLocators {
             page.getByRole(BUTTON, getName("Register")).click();
 
             var warning = page.getByText("Valid last name is required");
-            Assertions.assertTrue(warning.isVisible()); // possible but not recommended!
-
+//            Assertions.assertTrue(warning.isVisible()); // possible but not recommended!
+            assertThat(warning).isVisible();
 
         }
     }
