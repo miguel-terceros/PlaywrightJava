@@ -1,0 +1,187 @@
+{
+  "cookies": [
+    {
+      "name": "_octo",
+      "value": "",
+      "domain": ".github.com",
+      "path": "/",
+      "expires": 0,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cpu_bucket",
+      "value": "xlg",
+      "domain": ".github.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tz",
+      "value": "America%2FLa_Paz",
+      "domain": ".github.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_device_id",
+      "value": "",
+      "domain": "github.com",
+      "path": "/",
+      "expires": 1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "saved_user_sessions",
+      "value": "",
+      "domain": "github.com",
+      "path": "/",
+      "expires": 1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "user_session",
+      "value": "",
+      "domain": "github.com",
+      "path": "/",
+      "expires": 1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Host-user_session_same_site",
+      "value": "",
+      "domain": "github.com",
+      "path": "/",
+      "expires": 17,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "tz",
+      "value": "America%2FLa_Paz",
+      "domain": "github.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "color_mode",
+      "value": "",
+      "domain": ".github.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "logged_in",
+      "value": "yes",
+      "domain": ".github.com",
+      "path": "/",
+      "expires": 1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "dotcom_user",
+      "value": "miguel-terceros",
+      "domain": ".github.com",
+      "path": "/",
+      "expires": 1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "last_write_ms",
+      "value": "",
+      "domain": "github.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "preferred_color_mode",
+      "value": "light",
+      "domain": ".github.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gh_sess",
+      "value": "",
+      "domain": "github.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://github.com",
+      "localStorage": [
+        {
+          "name": "offline_cache_last_cleanup::offline_cache_v2::miguel-terceros::queries",
+          "value": ""
+        },
+        {
+          "name": "COPILOT_AUTH_TOKEN",
+          "value": ""
+        },
+        {
+          "name": "COPILOT_SELECTED_MODEL_VERSION",
+          "value": "15"
+        },
+        {
+          "name": "COPILOT_SELECTED_MODEL_null:expiry",
+          "value": ""
+        },
+        {
+          "name": "COPILOT_SELECTED_MODEL_null",
+          "value": ""
+        },
+        {
+          "name": "COPILOT_SAVED_USER_MESSAGE_dashboard_null",
+          "value": ""
+        },
+        {
+          "name": "COPILOT_SAVED_USER_MESSAGE_dashboard_null:expiry",
+          "value": ""
+        },
+        {
+          "name": "COPILOT_AUTH_TOKEN:expiry",
+          "value": ""
+        },
+        {
+          "name": "offline_cache_schema_first_seen::offline_cache_v2::",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

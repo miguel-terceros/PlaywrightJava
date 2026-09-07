@@ -7,4 +7,5 @@ public class Constans {
     public static final String BASE_WEB = "http://localhost:8000/";
     public static final String HOME_WEB = BASE_WEB + "index.html";
     public static final String SAVINGS_WEB = BASE_WEB + "savings.html";
+    public static final String LOANS_WEB = BASE_WEB + "loans.html";
 }
