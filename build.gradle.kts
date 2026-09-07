@@ -18,6 +18,9 @@ dependencies {
 
     // Source: https://mvnrepository.com/artifact/com.microsoft.playwright/playwright
     implementation("com.microsoft.playwright:playwright:1.62.0")
+
+    // Source: https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.22.2")
 }
 
 tasks.test {
